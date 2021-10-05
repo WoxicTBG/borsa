@@ -24,7 +24,7 @@ namespace borsa
             decimal vegetablesPrice = (vegetablesQuantity * pricePerVegetables) / euroCourse;
             decimal fruitsPrice = (fruitsQuantity * pricePerFruits) / euroCourse;
             Console.WriteLine($"Обща цена на зеленчуците: {vegetablesPrice:0.00}" +
-                $"\nОбща цена на плодовете: {fruitsPrice:0.00}");
+                              $"\nОбща цена на плодовете: {fruitsPrice:0.00}");
             
 
 
